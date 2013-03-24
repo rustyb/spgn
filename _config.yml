@@ -1,0 +1,28 @@
+auto: true
+server: true
+exclude:
+  - README.md
+  - sample-post
+permalink: pretty
+baseurl: http://spgn.ie
+url: http://rustyb.github.com/ipi-conf-13
+prose:
+  rooturl: "_posts"
+  metadata:
+    "_posts/pages": |
+      layout: new
+      title: "Page Title"
+      permalink: "/pages/page-link"
+      published: "true"
+      group: "navigation" #if you want it to show in top nav
+      published: "true"
+    "_posts/speakers": |
+      layout: new
+      title: "Speaker Name"
+      permalink: /speaker/speaker-name
+      categories: 
+          - speaker
+      thumbnail: /img/speakers/s/default.jpg
+      position: "This is a job title"
+      bio: "this is a bio"
+      published: "false"

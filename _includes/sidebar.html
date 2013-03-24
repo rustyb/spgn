@@ -1,0 +1,43 @@
+<!-- Sidebar -->
+
+<div class="links-row">
+	
+	
+	<aside class="large-4 columns" id="spgn-about">
+	  
+	    <h5>About</h5>
+	    <p class="subheader">The Spatial Planning Graduate Network is a community of planners who have graduated from the Dublin Institute of Technology’s Masters of Science in Spatial Planning.</p>
+	    <a href="#">Read More &rarr;</a>
+	  
+	</aside>
+	<aside class="large-4 columns" id="spgnews-sub">
+	  <div class="">
+	    <h5>Subscribe to SPGNews</h5>
+	  <div class="row">
+	    <div class="large-10 columns">
+	      <div class="row collapse">
+	        <div class="small-8 columns">
+	          <input type="text" placeholder="Enter your email...">
+	        </div>
+	        <div class="small-4 columns">
+	          <a href="#" class="button postfix radius">Subscribe</a>
+	        </div>
+	      </div>
+	    </div>
+				
+	  </div>
+	<p class="subheader">Get our monthly newsletter, SPGNews.</p>
+	</aside>
+	
+	<aside class="large-4 columns" id="recent-posts">
+	  <div>
+	  	<h5>Recent Posts</h5>
+			{% assign posts_group_list = site.posts %}
+			{% include posts_list %}
+	  </div>
+	</aside>
+</div>
+<!-- End Sidebar -->
+
+
+<!-- End Main Content and Sidebar -->

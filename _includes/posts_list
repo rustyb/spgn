@@ -1,0 +1,12 @@
+{% for node in posts_group_list limit:4 %}
+    {% if node.title != null %}
+      {% if group == null or group == node.group  %}
+		<a href="{{ site.baseurl }}{{node.url}}">{{ node.title }}</a>
+		<br>
+		<br>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+{% assign posts_group_list = nil %}
+{% assign group = nil %}

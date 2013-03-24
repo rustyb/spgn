@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>{{page.title}}</title>
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/normalize.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/styles.min.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/custom.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/fc-webicons.css" />
+
+  <script src="{{ site.baseurl }}/js/vendor/custom.modernizr.js"></script>
+
+</head>
+<body>
+	{% include header.html %}
+	  <!-- body content here -->
+	  <!-- Main Page Content and Sidebar -->
+		{% if page.photo  %}
+		<div class="splash" style="background-image:url({{ page.photo }});background-repeat:no-repeat;"></div>
+		{% endif %}
+		
+	  	<div class="row">
+			<!-- Main Blog Content -->
+	    	<div class="large-12 columns" role="content">
+				<article>
+					<div class="row">
+						
+						<div class="large-2 columns subheader">
+							
+							<p><em>March 05, 2013</em></p>
+							
+							<ul class="tags">
+								{% for tag in page.tags %}
+									<li><span class="radius secondary label">{{tag}}</span></li>
+								{% endfor %}
+								
+							</ul>
+						</div>
+						<div class="large-6 columns">
+							{{ content }}
+							
+							{% include comments.html %}
+						</div>
+						<div class="large-3 columns last">
+								<div class="row">
+									<div class="small-10 small-centered columns text-center">
+										{% if page.bio  %}
+											<a class="th" style="border-radius:150px; margin:0 auto 20px;" href="{{page.bio-img}}">
+												<img style="border-radius:150px;width:150px;" src="{{page.bio-img}}" />
+											</a>
+										{% endif  %}
+									</div>	
+								</div>
+								
+								<p class="subheader" style="padding-bottom:1em;"><small> <a href="#"> {{page.name}}</a> {{page.bio}}</small></p>
+								<a href="https://twitter.com/doccer" class="twitter-follow-button" data-show-count="false">Follow @doccer</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+								<hr/>
+								<a href="#" class="fc-webicon facebook round">Like us on Facebook</a>
+								<a href="#" class="fc-webicon twitter round">Follow us on Twitter</a>
+								<a href="#" class="fc-webicon linkedin round">Add us on LinkedIn</a>
+								<a href="#" class="fc-webicon youtube round">Subscribe to us on YouTube</a>
+								<a href="#" class="fc-webicon pinterest round">Subscribe to us on YouTube</a>
+								<a href="#" class="fc-webicon github round">Subscribe to us on YouTube</a
+							
+							
+						</div>
+					</div>
+					
+				</article>
+			</div>
+		</div>
+	<div class="container footer-grey">
+		<div class="row">
+			{% include sidebar.html %}
+		</div>
+		{% include footer.html %}
+	</div>
+	
+	
+	
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? '{{site.baseurl}}/js/vendor/zepto' : '{{site.baseurl}}/js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  <script src="{{ site.baseurl }}/js/foundation/foundation.js"></script>
+  <script src="{{ site.baseurl }}/js/foundation/foundation.alerts.js"></script>
+  <script src="{{site.baseurl}}/js/foundation/foundation.clearing.js"></script>
+  <script src="{{site.baseurl}}/js/foundation/foundation.cookie.js"></script>
+  <script src="{{site.baseurl}}/js/foundation/foundation.dropdown.js"></script>
+  <script src="{{site.baseurl}}/js/foundation/foundation.forms.js"></script>
+  <script src="{{site.baseurl}}/js/foundation/foundation.joyride.js"></script>
+  <script src="{{site.baseurl}}/js/foundation/foundation.magellan.js"></script>
+  <script src="{{site.baseurl}}/js/foundation/foundation.orbit.js"></script>
+  <script src="{{site.baseurl}}/js/foundation/foundation.placeholder.js"></script>
+  <script src="{{site.baseurl}}/js/foundation/foundation.reveal.js"></script>
+  <script src="{{site.baseurl}}/js/foundation/foundation.section.js"></script>
+  <script src="{{site.baseurl}}/js/foundation/foundation.tooltips.js"></script>
+  <script src="{{site.baseurl}}/js/foundation/foundation.topbar.js"></script>
+  <script>
+  $(document).foundation();
+  </script>
+</body>
+</html>

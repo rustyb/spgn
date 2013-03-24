@@ -1,0 +1,29 @@
+.top-bar .name h1 { line-height:90px; }
+h3 a {color:#333;}
+h3 {line-height:1;}
+.post {padding-bottom:4.8em;}
+ul.tags {list-style-type:none;}
+.splash {
+	border-bottom:10px solid #1AA8A3;
+background-size: cover;
+background-position: 50% 0%;
+background-repeat: no-repeat;
+padding-top: 240px;
+margin-top:-1.875em;
+margin-bottom:2.875em;
+}
+a.th {border-bottom:2px solid white;} /*to fix the issue with the bottom being 2 px lower that everything else*/
+.links-row {font-size:14px;}
+
+.footer-grey {
+	background-color: #f5f5f5;
+	background-image: url(../img/footer-shadow.gif);
+	background-repeat: no-repeat;
+	background-position: top center;
+	margin-top: 40px;
+}
+
+#spgn-about, #spgnews-sub , #recent-posts {padding-top:30px;}
+.last-row {font-size:13px; color:#555;padding: 1em 0;}
+.last-row a {text-decoration:underline !important;color:#555;}
+.all-posts li {border-top: 3px solid #ccc;padding-top:10px;font-size:13px;}
