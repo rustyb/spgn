@@ -23,6 +23,13 @@ The Spatial Planning Graduate Network held its 3rd Planners Forum, a panel discu
 ![Main Image](http://spatialplanning.ie/wordpress/wp-content/uploads/2012/03/SPGN-6.jpg)
 *(l to r) Arlene Finn, Owen Shinkwin, Brendan Finn, Lord Mayor Andrew Montague, David O'Connor, John O'Hara, Ciaran Cuffe*
 
+<div class="flex-video">
+  <iframe width="640" height="360" src="http://www.youtube.com/embed/4mnEjtkFGXY" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+</div>
+<div class="flex-video vimeo">
+<iframe src="http://player.vimeo.com/video/61393274" width="500" height="281" frameborder="0" webkitAllowFullScreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowFullScreen="allowfullscreen"> </iframe>
+</div>
+
 The guest speakers were Cllr Andrew Montague (Lord Mayor of Dublin), Brendan Finn (Independent Transport Consultant), John O’Hara (Deputy City Planner for Dublin City Council), Owen Shinkwin (Senior Planner in the National Transport’s Integrated Planning Section) and Arlene Finn (Programme/Coordinator Smarter Travel Workplaces Programme). An informal debate with the Spatial Planning Graduate Network and guests took place following the formal presentation from each of the guest speakers.
 
 ![](http://spatialplanning.ie/wordpress/wp-content/uploads/2012/03/SPGN-16.jpg)
