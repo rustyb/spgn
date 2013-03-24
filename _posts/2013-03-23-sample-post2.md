@@ -4,8 +4,10 @@ title: "The Myth of Self-certification of Buildings"
 published: True
 
 tags: [planning, urban design]
+tagline: "It is untrue to say that our local authorities have a system of self-certification of buildings in Ireland."
 
 photo: "http://spatialplanning.ie/wordpress/wp-content/uploads/2011/08/smithfield-walk-1.jpg"
+thumb: "http://farm9.staticflickr.com/8183/8079929289_c593aaa5b6_n.jpg"
 
 name: "Paul Hogan"
 bio: "Dip. Arch., B.Arch. Sc., M.R.I.A.I. Dip Physical Planning, M.Sc. Spatial Planning"

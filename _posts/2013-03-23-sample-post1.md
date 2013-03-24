@@ -4,8 +4,10 @@ title: "Rights to Dublin’s Public Transport Services up for Grabs"
 published: True
 
 tags: [planning, urban design, event]
+tagline: "People don’t tend to get excited about transport nearly as much as they get annoyed by it."
 
 photo: "http://spatialplanning.ie/wordpress/wp-content/uploads/2011/08/smithfield-walk-1.jpg"
+thumb: "http://farm6.staticflickr.com/5315/5874618658_301c20d90a_n.jpg"
 
 name: "David O'Connor"
 bio: "is Chairperson of the Spatial Planning Graduate Network and lectures in Transport and Urban Design at DIT Environment and Planning"

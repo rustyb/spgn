@@ -2,7 +2,13 @@
 {% for node in posts_group_list limit:100 %}
     {% if node.title != null %}
       {% if group == null or group == node.group  %}
-		<li class="subheader"><a href="{{site.baseurl}}{{node.url}}"><img src="{{node.photo}}"><p>{{node.tagline}}</p><small class="right">{{ node.date | date: '%d %b %Y' }}</small></a></li>
+		<li class="subheader">
+			<a href="{{site.baseurl}}{{node.url}}">
+				<span class="thumb" style="background-image:url({{node.thumb}})"></span>
+				<p>{{node.tagline}}</p>
+				<small class="right">{{ node.date | date: '%d %b %Y' }}</small>
+			</a>
+		</li>
       {% endif %}
     {% endif %}
   {% endfor %}

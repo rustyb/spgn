@@ -7,6 +7,7 @@ tags: [planning]
 tagline: "The action programme, Putting People First, launched in October 2012."
 
 photo: "http://spatialplanning.ie/wordpress/wp-content/uploads/2012/03/SPGN-6-1024x543.jpg"
+thumb: "http://farm5.staticflickr.com/4088/5027091441_838428df3a_n.jpg"
 
 name: "David O'Connor"
 bio: "is Chairperson of the Spatial Planning Graduate Network and lectures in Transport and Urban Design at DIT Environment and Planning"
