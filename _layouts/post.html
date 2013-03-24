@@ -76,15 +76,23 @@
 		</div>
 		<div class="row">
 			<div class="large-12 columns pagination text-center">
-			{% if page.previous.url %} 
-			 <a class="small-4 columns" href="{{site.baseurl}}{{page.previous.url}}" title="Previous Post:{{page.previous.title}}">
+			{% if page.next.url %} 
+			<a class="small-4 columns" href="{{site.baseurl}}{{page.next.url}}" title="Next Post: {{page.previous.title}}">
 				&larr; Previous
 			</a>
-			{% endif %}
+			{% endif %}			
+			
+			{% if page.previous.url and page.next.url %}
 			<a class="small-4 columns" href="{{site.baseurl}}/all" title="All Posts">
-				All Posts
-			{% if page.next.url %} 
-			 <a class="small-4 columns" href="{{site.baseurl}}{{page.next.url}}" title="Next Post: {{page.previous.title}}">
+				All Posts</a>
+			{% else %}
+			<a class="small-8 columns" href="{{site.baseurl}}/all" title="All Posts">
+				All Posts</a>
+			{% endif %}
+			
+			{% if page.previous.url %} 
+			 <a class="small-4 columns" href="{{site.baseurl}}{{page.previous.url}}" title="Previous Post:{{page.previous.title}}">
+				
 				Next &rarr;
 			</a>
 			{% endif %}
