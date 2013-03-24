@@ -4,7 +4,7 @@ exclude:
   - README.md
   - sample-post
 permalink: pretty
-baseurl: http://spgn.ie
+baseurl: http://rustyb.github.com/spgn
 url: http://rustyb.github.com/ipi-conf-13
 prose:
   rooturl: "_posts"
