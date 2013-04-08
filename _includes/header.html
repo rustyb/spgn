@@ -1,22 +1,35 @@
 <!-- Header and Nav -->
-  <nav class="top-bar">
-    <ul class="title-area">
+<div class="contain-to-grid">
+	
+	<div class="show-for-small">
+		<div class="small-12 columns text-center">
+			<img src="{{site.baseurl}}/img/spgn_logo.jpg" style="height:120px; margin-top:1em;" />
+		</div>
+	</div>
+	
+<nav class="top-bar">
+  <ul class="title-area">
       <!-- Title Area -->
+   
       <li class="name">
+	<div class="hide-for-small">
         <h1>
           <a href="{{site.baseurl}}/">
-            <img src="{{site.baseurl}}/img/SPGN_LOGO.png" />
+            <img src="{{site.baseurl}}/img/spgn_logo.jpg" style="height:120px; margin-top:1em;" />
           </a>
         </h1>
+	</div>
       </li>
+   
       <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-    </ul>
+    </ul>	
+	
+    
  
     <section class="top-bar-section">
- 
       <!-- Right Nav Section -->
       <ul class="right">
-        <li class="divider"></li>
+        <!--<li class="divider"></li>-->
         <li class="">
           <a href="{{site.baseurl}}/about">About</a>
           <!--<ul class="dropdown">
@@ -51,18 +64,19 @@
           </ul>
 			-->        
 		</li>
-        <li class="divider"></li>
+        <!--<li class="divider"></li>-->
         <li><a href="#">Events</a></li>
-        <li class="divider"></li>
+        <!--<li class="divider"></li>-->
         <li><a href="#">Search</a></li>
-        <li class="divider"></li>
+        <!--<li class="divider"></li>-->
         <li class="">
           <a href="{{site.baseurl}}/feed.xml">Feed</a>
-          
+
         </li>
       </ul>
     </section>
-  </nav>
- 
+  
+</nav>
+</div>
  
   <!-- End Header and Nav -->

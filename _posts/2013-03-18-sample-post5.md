@@ -1,10 +1,11 @@
 ---
 layout: "post"
 title: "Spatial Planners Graduate Network Set the Future Planning Agenda for Dublin City"
-published: True
+
 
 tags: [planning, urban design, event]
 tagline: "SPGN held its 3rd Planners Forum, a panel discussion on the topic ‘Future Dublin – A vision for a Healthy and Mobile City’"
+group: 'planning'
 
 photo: "http://spatialplanning.ie/wordpress/wp-content/uploads/2012/03/SPGN-6.jpg"
 thumb: "http://farm3.staticflickr.com/2700/4311590470_ab40e4f67e_n.jpg"

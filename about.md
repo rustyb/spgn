@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: About the SPGN
 description: The Irish Planning INstitute Conference is heading north of the Border to Belfast 25th-26th April, be the first to hear when the paper titles are published and registration opens!
 ---

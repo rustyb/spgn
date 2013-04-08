@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>{{page.title}}</title>
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/normalize.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/styles.min.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/custom.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/fc-webicons.css" />
+
+  <script src="{{ site.baseurl }}/js/vendor/custom.modernizr.js"></script>
+
+</head>
+<body>
+	<!-- Begin Header -->
+		{% include header.html %}
+	<!-- End Header -->
+  	<!-- body content here -->
+  	<!-- Main Page Content and Sidebar -->
+ 
+  	<div class="row">
+  		<div class="large-12 columns" role="content" style="margin-top:6em;">
+			<!-- Main Blog Content -->
+				{{ content }}
+		</div>
+  	</div>
+		
+	
+	<!-- Prefooter and footer content -->
+	<div class="container footer-grey">
+		<div class="row">
+			{% include sidebar.html %}
+		</div>
+		{% include footer.html %}
+	</div>
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? '{{ site.baseurl }}/js/vendor/zepto' : '{{ site.baseurl }}/js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  <script src="{{ site.baseurl }}/js/foundation/foundation.js"></script>
+  <script src="{{ site.baseurl }}/js/foundation/foundation.alerts.js"></script>
+  <script src="{{ site.baseurl }}/js/foundation/foundation.clearing.js"></script>
+  <script src="{{ site.baseurl }}/js/foundation/foundation.cookie.js"></script>
+  <script src="{{ site.baseurl }}/js/foundation/foundation.dropdown.js"></script>
+  <script src="{{ site.baseurl }}/js/foundation/foundation.forms.js"></script>
+  <script src="{{ site.baseurl }}/js/foundation/foundation.joyride.js"></script>
+  <script src="{{ site.baseurl }}/js/foundation/foundation.magellan.js"></script>
+  <script src="{{ site.baseurl }}/js/foundation/foundation.orbit.js"></script>
+  <script src="{{ site.baseurl }}/js/foundation/foundation.placeholder.js"></script>
+  <script src="{{ site.baseurl }}/js/foundation/foundation.reveal.js"></script>
+  <script src="{{ site.baseurl }}/js/foundation/foundation.section.js"></script>
+  <script src="{{ site.baseurl }}/js/foundation/foundation.tooltips.js"></script>
+  <script src="{{ site.baseurl }}/js/foundation/foundation.topbar.js"></script>
+  <script>
+  $(document).foundation();
+  </script>
+</body>
+</html>

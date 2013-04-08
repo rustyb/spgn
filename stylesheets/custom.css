@@ -4,12 +4,12 @@ h3 {line-height:1;}
 .post {padding-bottom:4.8em;}
 ul.tags {list-style-type:none;}
 .splash {
-	border-bottom:10px solid #1AA8A3;
+border-bottom:10px solid #1AA8A3;
 background-size: cover;
 background-position: 50% 0%;
 background-repeat: no-repeat;
 padding-top: 240px;
-margin-top:-1.875em;
+margin-top:-0em; /*-1.875em*/
 margin-bottom:2.875em;
 }
 a.th {border-bottom:2px solid white;} /*to fix the issue with the bottom being 2 px lower that everything else*/
@@ -20,7 +20,7 @@ a.th {border-bottom:2px solid white;} /*to fix the issue with the bottom being 2
 	background-image: url(../img/footer-shadow.gif);
 	background-repeat: no-repeat;
 	background-position: top center;
-	margin-top: 40px;
+/*	margin-top: 40px;  */
 }
 
 #spgn-about, #spgnews-sub , #recent-posts {padding-top:30px;}
@@ -28,7 +28,7 @@ a.th {border-bottom:2px solid white;} /*to fix the issue with the bottom being 2
 .last-row a {text-decoration:underline !important;color:#555;}
 .all-posts li {border-top: 3px solid #ccc;padding-top:10px;font-size:13px;border-right:1px dotted #CCC}
 
-.all-posts .thumb {
+.all-posts .thumb, .other-posts li .thumb {
 width: 100%;
 height: 100px;
 margin: 0px 0px 10px;
@@ -62,3 +62,11 @@ border-radius:0px 10px 10px 0px;
 border-radius:10px 0px 0px 10px;
 -moz-border-radius:10px 0px 0px 10px;
 }
+.contain-to-grid {background:#111;}
+.top-bar {background:transparent;}
+.other-posts {font-size:12px;}
+.other-posts p {margin-bottom:0;}
+.other-posts ul {list-style-type:none;}
+.other-posts li {padding-bottom:3em;}
+.other-posts .title {font-weight:bold;color:#333;}
+.other-posts .title:hover {text-decoration:underline;}

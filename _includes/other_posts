@@ -1,0 +1,19 @@
+{% for node in other_posts_list limit:3 %}
+    {% if node.title != null %}
+      {% if group == null or group == node.group  %}
+		<li>
+		<a href="{{ site.baseurl }}{{node.url}}">
+		<!--<img src="http://placehold.it/250x50">-->
+		<span class="thumb" style="background-image:url({{node.thumb}})"></span>
+		<span class="title">{{node.title | truncatewords: 5}}</span>
+		<p>{{node.tagline | truncatewords: 8}}</p>
+		<small class="right">{{ node.date | date: '%d %b %Y' }}</small>
+		</a>
+		</li>
+		
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+{% assign other_posts_list = nil %}
+{% assign group = nil %}

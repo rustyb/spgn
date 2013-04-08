@@ -3,6 +3,24 @@
       {% if group == null or group == node.group  %}
 		<div class="row post">
 		<article>
+			
+			<div class="large-12 columns">
+				<p class="subheader"><img src="{{node.photo}}" /></p>
+				<h3><a href="{{ site.baseurl }}{{node.url}}">{{node.title}}</a></h3>
+				<small><em>{{ node.date | date: '%d %b %Y' }} by {{node.name}} 2 Comments</em></small>
+				<p class="subheader">{{node.snippet}}</p>
+        		<p>Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+				
+				<ul class="tags inline-list">
+					{% for tag in node.tags %}
+						<li><span class="radius secondary label">{{tag}}</span></li>
+					{% endfor %}
+				</ul>
+			</div>
+		</article>
+		</div>
+		<!--<div class="row post">
+		<article>
 			<div class="large-4 columns">
 				<p class="subheader"><img src="{{node.photo}}" />
 				<em>{{ node.date | date: '%d %b %Y' }}</em></p>
@@ -20,7 +38,7 @@
 			</div>
 			
 		</article>
-		</div>
+		</div>-->
       {% endif %}
     {% endif %}
   {% endfor %}

@@ -5,8 +5,9 @@ published: True
 
 tags: [planning, urban design, event]
 tagline: "People don’t tend to get excited about transport nearly as much as they get annoyed by it."
+group: 'planning'
 
-photo: "http://spatialplanning.ie/wordpress/wp-content/uploads/2011/08/smithfield-walk-1.jpg"
+photo: "http://www.jamesosullivan.ie/wp-content/up/DublinBusImage.jpg"
 thumb: "http://farm6.staticflickr.com/5315/5874618658_301c20d90a_n.jpg"
 
 name: "David O'Connor"

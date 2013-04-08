@@ -5,6 +5,7 @@ published: True
 
 tags: [planning]
 tagline: "The action programme, Putting People First, launched in October 2012."
+group: 'planning'
 
 photo: "http://spatialplanning.ie/wordpress/wp-content/uploads/2012/03/SPGN-6-1024x543.jpg"
 thumb: "http://farm5.staticflickr.com/4088/5027091441_838428df3a_n.jpg"
