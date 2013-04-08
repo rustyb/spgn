@@ -1,14 +1,9 @@
-
 		{% for node in site.tags.planning limit:4 %}
       	<li class="subheader">
 			<a href="{{ site.baseurl }}{{node.url}}">
 			<span class="thumb" style="background-image:url({{node.thumb}}); height:90px;"></span>
-			<p>{{node.tagline | truncatewords: 12}}</p>
+			<p>{{node.tagline | truncatewords: 12}} &rarr;</p>
 			<small class="right">{{ node.date | date: '%d %b %Y' }}</small>
 			</a>
 		</li>
 		{% endfor %}
-   
-
-{% assign post_group = nil %}
-{% assign group = nil %}

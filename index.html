@@ -48,7 +48,7 @@ custom_img: "false"
 	      <hr />
 
 
-			<div class="row">
+			<div class="row groups">
 		 	  	<div class="large-2 columns panel">
 					<h3>Planning</h3>
 					<p>Get involved in the new discussion shaping Irelands spatial future.</p>
@@ -56,9 +56,8 @@ custom_img: "false"
 				<div class="large-10 columns">
 		<!-- Using only the large-block-grid -->
 				<ul class="large-block-grid-4">
-					{% assign post_group = site.posts %}
-					{% assign group = 'planning' %}
-					{% include post_group %}
+					
+					{% include planning_posts %}
 			  		<!--<li class="subheader"><img src="http://placehold.it/300x150"><p>Bacon ipsum dolor sit amet nulla ham qui sint.The Myth of Self-certification of Buildings</p><small class="right">MAR 05 2013</small></li>
 			  		<li class="subheader"><img src="http://placehold.it/300x150"><p >Bacon ipsum dolor sit amet nulla ham qui sint.The Myth of Self-certification of Buildings</p><small class="right">MAR 05 2013</small></li>
 			  		<li class="subheader"><img src="http://placehold.it/300x150"><p>Bacon ipsum dolor sit amet nulla ham qui sint.The Myth of Self-certification of Buildings</p><small class="right">MAR 05 2013</small></li>
@@ -66,7 +65,7 @@ custom_img: "false"
 				</ul>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row groups">
 				
 		 	  	<div class="large-2 columns panel">
 					<h3>CPD</h3>
@@ -75,10 +74,13 @@ custom_img: "false"
 				<div class="large-10 columns">
 		<!-- Using only the large-block-grid -->
 				<ul class="large-block-grid-4">
+			  	<!--	<li class="subheader"><img src="http://placehold.it/300x150"><p>Bacon ipsum dolor sit amet nulla ham qui sint.The Myth of Self-certification of Buildings</p><small class="right">MAR 05 2013</small></li>
 			  		<li class="subheader"><img src="http://placehold.it/300x150"><p>Bacon ipsum dolor sit amet nulla ham qui sint.The Myth of Self-certification of Buildings</p><small class="right">MAR 05 2013</small></li>
 			  		<li class="subheader"><img src="http://placehold.it/300x150"><p>Bacon ipsum dolor sit amet nulla ham qui sint.The Myth of Self-certification of Buildings</p><small class="right">MAR 05 2013</small></li>
 			  		<li class="subheader"><img src="http://placehold.it/300x150"><p>Bacon ipsum dolor sit amet nulla ham qui sint.The Myth of Self-certification of Buildings</p><small class="right">MAR 05 2013</small></li>
-			  		<li class="subheader"><img src="http://placehold.it/300x150"><p>Bacon ipsum dolor sit amet nulla ham qui sint.The Myth of Self-certification of Buildings</p><small class="right">MAR 05 2013</small></li>
+			-->
+				
+				{% include cpd_posts %}
 				</ul>
 				</div>
 			</div>

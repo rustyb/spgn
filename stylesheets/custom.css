@@ -70,3 +70,5 @@ border-radius:10px 0px 0px 10px;
 .other-posts li {padding-bottom:3em;}
 .other-posts .title {font-weight:bold;color:#333;}
 .other-posts .title:hover {text-decoration:underline;}
+
+.groups li p {font-size:13px;}
