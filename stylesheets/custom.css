@@ -62,7 +62,7 @@ border-radius:0px 10px 10px 0px;
 border-radius:10px 0px 0px 10px;
 -moz-border-radius:10px 0px 0px 10px;
 }
-.contain-to-grid {background:#003DBA;}
+.contain-to-grid {background:#003DBA;border-bottom: 1px solid #CCC; box-shadow: 0 3px 4px rgba(0, 0, 0, 0.17);}
 .top-bar {background:transparent;}
 .other-posts {font-size:12px;}
 .other-posts p {margin-bottom:0;}
