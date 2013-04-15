@@ -3,7 +3,7 @@ layout: cpd
 title: "Creative Industries in Ireland"
 published: true
 
-tags: [planning, urban design, cpd]
+tags: [cpd]
 tagline: "With much discussion on the smart economy, the recent talk given at Forfas (11 Nov 2010) on creative industries by Professor Dominic Power, Uppsala University is instructive."
 
 photo: "http://spatialplanning.ie/wordpress/wp-content/uploads/2010/12/map_600.jpg"
