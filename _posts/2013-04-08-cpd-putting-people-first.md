@@ -3,7 +3,7 @@ layout: cpd
 title: "Can “Putting People First” change the face of Local Government (and Planning) in Ireland?"
 published: true
 
-tags: [planning, urban design, cpd]
+tags: [cpd]
 tagline: "SPGN's first session of the 2013 CPD Seminar Series on the governments Putting People First action programme."
 
 photo: "http://spatialplanning.ie/wordpress/wp-content/uploads/2012/03/SPGN-6.jpg"
