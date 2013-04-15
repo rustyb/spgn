@@ -1,13 +1,13 @@
 ---
 layout: cpd
 title: "Can “Putting People First” change the face of Local Government (and Planning) in Ireland?"
-published: True
+published: true
 
 tags: [planning, urban design, cpd]
 tagline: "SPGN's first session of the 2013 CPD Seminar Series on the governments Putting People First action programme."
 
 photo: "http://spatialplanning.ie/wordpress/wp-content/uploads/2012/03/SPGN-6.jpg"
-thumb: "http://farm3.staticflickr.com/2700/4311590470_ab40e4f67e_n.jpg"
+thumb: "http://farm1.staticflickr.com/151/349324012_515ac6b51d.jpg"
 
 name: "David O'Connor"
 bio: "is Chairperson of the Spatial Planning Graduate Network and lectures in Transport and Urban Design at DIT Environment and Planning"
