@@ -3,7 +3,7 @@ layout: cpd
 title: "A response to – Impacts of Abandoned Development for the Public Realm and Streetscape"
 published: true
 
-tags: [cpd]
+tags: [planning, urban design, cpd]
 tagline: "The following is a response to a previous post in this blog : Impacts of abandoned development for the public realm and streetscape"
 
 photo: "http://farm9.staticflickr.com/8320/8059775547_d25b55748a_c.jpg"
